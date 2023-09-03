@@ -1,6 +1,12 @@
 # vue-starter-app
 
-This is a lightweight starter Vue app without all the extra code that comes with `create-vue`.
+This is a lightweight starter Vue app without all the extra code that comes with `create-vue`. I use this to spin up my personal projects. Feel free to fork/copy and start up an app of your own. This app has the following set up and ready to use out of the box:
+
+- Vite
+- adding custom assets like images and favicon
+- Typescript ready
+- Sass
+- linting with Prettier and ESLint (recommend adding the ESLint extension in VS Code)
 
 ## Requirements
 
