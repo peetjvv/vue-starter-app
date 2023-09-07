@@ -14,7 +14,8 @@
     "eslint": "eslint src --color --cache",
     "eslint:fix": "npm run lint -- --fix",
     "prettier": "prettier --check *.{js,ts,tsx,json,scss,css,md,vue}",
-    "prettier:write": "prettier --write *.{js,ts,tsx,json,scss,css,md,vue}"
+    "prettier:write": "prettier --write *.{js,ts,tsx,json,scss,css,md,vue}",
+    "serve": "http-server dist --port 80"
   },
   "author": "Peet Janse van Vuuren",
   "license": "MIT",
@@ -46,6 +47,7 @@
     "@vue/tsconfig": "^0.4.0",
     "eslint": "^8.48.0",
     "eslint-plugin-vue": "^9.17.0",
+    "http-server": "^14.1.1",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
